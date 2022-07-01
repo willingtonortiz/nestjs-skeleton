@@ -1,8 +1,8 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-npm run test
-npm run test:e2e
+npm run test -- --passWithNoTests
+npm run test:e2e -- --passWithNoTests
 # npm run format
 # npm run lint
 npm run pre-commit
