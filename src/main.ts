@@ -1,4 +1,4 @@
-import { NestFactory } from '@nestjs/core';
+import { NestFactory, AbstractHttpAdapter } from '@nestjs/core';
 import { AppModule } from './app.module';
 
 async function bootstrap() {
