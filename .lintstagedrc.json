@@ -1,5 +1,6 @@
 {
   "{src,test}/**/*.ts": [
-    "prettier --write"
+    "prettier --write",
+    "eslint --fix"
   ]
 }
