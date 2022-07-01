@@ -3,4 +3,4 @@
 
 npm run test
 npm run test:e2e
-npx lint-staged
+npm run pre-commit
